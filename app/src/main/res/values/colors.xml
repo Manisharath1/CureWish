@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FF3333</color>
+    <color name="pink">#FF008d</color>
+    <color name="yellow">#e0af1f</color>
+    <color name="blue">#38B4B8</color>
+    <color name="moonstone">#3aa8c1</color>
+    <color name="redplum">#db5a6b</color>
+    <color name="limerick">#9dc209</color>
+    <color name="acidgreen">#5CDCBE</color>
+    <color name="purple1">#5b39c6</color>
+    <color name="purple2">#966CCF</color>
+    <color name="purple3">#6638e2</color>
+    <color name="tritanopia">#a6767c</color>
+    <color name="colorwhite">#00yg76</color>
+</resources>
