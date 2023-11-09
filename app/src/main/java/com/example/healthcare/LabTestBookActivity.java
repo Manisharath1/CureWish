@@ -41,8 +41,8 @@ public class LabTestBookActivity extends AppCompatActivity {
                 Database db = new Database(getApplicationContext(), "healthcare",null,1);
                 db.addOrder(username,edname.getText().toString(),edaddress.getText().toString(), edcontact.getText().toString(), edemail.getText().toString(), date.toString(), time.toString(), Float.parseFloat(price[1].toString()), "lab" );
                 db.removeCart(username, "lab");
-                Toast.makeText(getApplicationContext(), "Booking Confirmed !", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(LabTestBookActivity.this, HomeActivity.class));
+                //Toast.makeText(getApplicationContext(), "Booking Confirmed !", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(LabTestBookActivity.this, PaymentActivity.class));
             }
         });
     }
