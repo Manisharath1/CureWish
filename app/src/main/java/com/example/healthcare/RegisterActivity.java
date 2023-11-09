@@ -55,19 +55,18 @@ public class RegisterActivity extends AppCompatActivity {
                         db.register(username,email,password);
                             Toast.makeText(getApplicationContext(), "User data saved", Toast.LENGTH_SHORT).show();
                             startActivity(new Intent(RegisterActivity.this, LoginActivity.class));
+                            Toast.makeText(getApplicationContext(), "Registration Successful", Toast.LENGTH_SHORT).show();
 
                         }
                         else
                         {
                             Toast.makeText(getApplicationContext(), "Password must contain at least 8 characters having a letter,digit and a character", Toast.LENGTH_SHORT).show();
-
                         }
                     }
                     else
                     {
                         Toast.makeText(getApplicationContext(), "Password didn't match", Toast.LENGTH_SHORT).show();
                     }
-                    Toast.makeText(getApplicationContext(), "Registration Successful", Toast.LENGTH_SHORT).show();
                 }
             }
         });
